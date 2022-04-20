@@ -1,9 +1,9 @@
 '''
 INSTRUCTIONS:
 
-- Execute the code (`python3 timer.py` in your command line).
-- Once prompted, enter the amount of seconds you would like counted down.
-- Wait the allotted time and and wait for your command line to read `Done!!`.
+- RUN: Execute the code (`python3 timer.py` in your command line).
+- INPUT: Once prompted, enter the amount of seconds you would like counted down.
+- OUTPUT: Wait the allotted time and and wait for your command line to read `Done!!`.
 '''
 
 # Importing time module for use in timing of countdown.
