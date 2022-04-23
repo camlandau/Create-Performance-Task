@@ -28,13 +28,13 @@ def setQueue(arr, length):
         arr.insert(0, x)
 
 
-def playCountdown():
-    for x in range(0, len(cdQueue) + 1):
-        if x == len(cdQueue):
+def playCountdown(queue):
+    for x in range(0, len(queue) + 1):
+        if x == len(queue):
             # Once the countdown finishes, print done to signify the end of the timer.
             print('Done!!')
         else:
-            print(cdQueue[x])
+            print(queue[x])
             time.sleep(1)
 
 
@@ -42,4 +42,4 @@ def playCountdown():
 setQueue(cdQueue, secondsInput)
 
 # Calling the queue for the timer to be printed to the console.
-playCountdown()
+playCountdown(cdQueue)
